@@ -1,0 +1,9 @@
+{{#if @toggleZoom}}
+    <div class='product-image' {{on 'click' @toggleZoom}}>
+        <img src={{@src}} alt='headphones' />
+    </div>
+{{else}}
+    <div class='product-image'>
+        <img src={{@src}} alt='headphones' />
+    </div>
+{{/if}}
